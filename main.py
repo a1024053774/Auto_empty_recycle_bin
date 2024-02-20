@@ -9,7 +9,7 @@ def empty_recycle_bin():
         print(f"Error emptying Recycle Bin: {e}")
 
 # 设置清空回收站的间隔时间（秒）
-interval_seconds = 60
+interval_seconds = 120
 
 while True:
     empty_recycle_bin()
